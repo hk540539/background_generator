@@ -1,0 +1,11 @@
+let obj = {
+username0:"Hemanth",
+username1:"kumar",
+username2:"sakamuri"};
+undefined
+const filter = Object.values(obj).filter(check => check === "kumar");console.log(filter)
+
+const filter1 = Object.keys(obj).filter(check => check === "username0");console.log(filter1)
+
+
+const filter3 = Object.entries(obj).filter(check => check[0] === "username0");console.log(filter3)

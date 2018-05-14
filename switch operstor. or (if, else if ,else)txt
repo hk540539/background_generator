@@ -1,0 +1,48 @@
+
+// using switch case
+function move(direction){
+	var WhatHappens;
+	switch(direction){
+        case "forward":
+			WhatHappens = " moves Forward ";
+		break;
+		case "backward":
+			WhatHappens = " moves Backward ";
+		break
+		case "left":
+			WhatHappens = " moves Left ";
+		break;
+		case "right":
+			WhatHappens = " moves Right ";
+		break;
+        default:
+			WhatHappens = "Select valid Direction";
+    }
+	return WhatHappens;
+}
+
+// using if else if and else
+function move(direction){
+	var WhatHappens;
+		if(direction === "forward"){
+			WhatHappens = " moves Forward ";
+			return WhatHappens;
+		}	
+		if(direction === "backward"){
+			WhatHappens = " moves Backward ";
+			return WhatHappens;
+		}
+		if(direction === "left"){
+			WhatHappens = " moves left ";
+			return WhatHappens;
+		}
+		if(direction === "right"){
+			WhatHappens = " moves Right ";
+			return WhatHappens;
+		}
+		else {
+			WhatHappens = ""Select valid Direction";
+			return WhatHappens;
+		}
+	}	
+	
